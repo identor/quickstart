@@ -6,7 +6,7 @@ export class Hero {
 }
 
 const HEROES: Hero[] = [
-  { id: 11, name: 'Mr. Nice' },
+  { id: '11', name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
   { id: 13, name: 'Bombasto' },
   { id: 14, name: 'Celeritas' },
@@ -89,7 +89,7 @@ const HEROES: Hero[] = [
       height: 1.8em;
       margin-right: .8em;
       border-radius: 4px 0 0 4px;
-    } 
+    }
   `]
 })
 export class AppComponent  {
